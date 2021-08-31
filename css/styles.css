@@ -84,3 +84,9 @@ header{
 .header__menu-tab--active, .header__menu-tab:hover{
     border-bottom: 4px solid var(--fb-blue);
 }
+.header__menu-tab:hover .fas, .header__menu-tab:hover .fab{
+    color: var(--fb-blue);
+}
+.header__menu-tab--active .fas, .header__menu-tab--active .fab{
+    color: var(--fb-blue);
+}
