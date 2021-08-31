@@ -77,3 +77,6 @@ header{
     cursor: pointer;
     font-size: 1.3rem;
 }
+.header__menu-tab--active, .header__menu-tab:hover{
+    border-bottom: 4px solid var(--fb-blue);
+}
