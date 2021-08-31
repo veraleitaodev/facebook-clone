@@ -109,3 +109,22 @@ header{
     right: -10px;
     font-weight: 700;
 }
+.header__account{
+    display: flex;
+}
+.header__actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__user-img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+.header__user-name{
+    font-size: .9rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
