@@ -149,7 +149,21 @@ header{
 .header__link-icon{
     font-size: .9rem;
 }
-
 .header__link-icon .header__notification-bubble{
     top: -2px;
+}
+.content-area--feed{
+    padding: 90px 15px 20px;
+    display: flex;
+}
+.sidenav__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sidenav__item-img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
 }
