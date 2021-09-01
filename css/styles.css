@@ -139,6 +139,7 @@ header{
     align-items: center;
     text-decoration: none;
     margin-right: 10px;
+    position: relative;
 }
 .header__circle-link .fa-sort-down{
     position: relative;
@@ -147,4 +148,8 @@ header{
 }
 .header__link-icon{
     font-size: .9rem;
+}
+
+.header__link-icon .header__notification-bubble{
+    top: -2px;
 }
