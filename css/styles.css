@@ -128,3 +128,15 @@ header{
     font-weight: 600;
     margin-right: 20px;
 }
+.header__circle-link{
+    background: var(--button-link);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border-radius: 50%;
+    color: var(--dark-color-text);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
