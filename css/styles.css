@@ -240,4 +240,5 @@ header{
 }
 .sidenav__heading-title{
     display: block;
+    margin-bottom: 10px;
 }
