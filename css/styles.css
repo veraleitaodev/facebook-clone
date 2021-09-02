@@ -278,3 +278,44 @@ header{
     opacity: .4;
     transition: opacity.3s ease-in-out;
 }
+.stories__video-container:hover .stories__bg{
+    opacity: .8;
+}
+.stories__title{
+    position: absolute;
+    bottom: 0;
+    background: var(--fb-whitebg);
+    width: 100%;
+    color: var(--fb-black);
+    padding: 20px 20px 10px;
+    font-size: 1rem;
+    line-height: 1.4;
+    text-align: center;
+}
+.stories__new-btn{
+    background: var(--fb-blue);
+    width: 40px;
+    height: 40px;
+    color: var(--fb-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 4px solid var(--fb-white);
+    position: absolute;
+    top: -20px;
+    left: 40px;
+}
+.stories__video-container--plain .stories__title{
+    background: transparent;
+    color: var(--fb-white);
+}
+.stories__user{
+    border: 4px solid var(--fb-blue);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -113px;
+    left: 10px;
+}
