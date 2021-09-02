@@ -164,6 +164,7 @@ header{
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .sidenav__item-img{
     border-radius: 50%;
@@ -241,4 +242,39 @@ header{
 .sidenav__heading-title{
     display: block;
     margin-bottom: 10px;
+}
+.feed{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.stories{
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.stories__video-container{
+    overflow: hidden;
+    width: 120px;
+    height: 200px;
+    border-radius: 5px;
+    background:var(--stories-bg);
+    position: relative;
+    box-shadow: 0px 2px 2px 0px var(--fb-black);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.stories__video-container:nth-last-child(1){
+    margin-right: 0px;
+}
+.stories__bg{
+    object-fit: cover;
+    object-position: center;
+    width: 125px;
+    height: 200px;
+    opacity: .4;
+    transition: opacity.3s ease-in-out;
 }
