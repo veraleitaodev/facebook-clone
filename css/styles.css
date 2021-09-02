@@ -170,6 +170,8 @@ header{
     height: 40px;
     width: 40px;
     margin-right: 20px;
+    object-fit: cover;
+    object-position: center;
 }
 .sidenav__item-title{
     font-size: 1rem;
