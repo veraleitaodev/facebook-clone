@@ -380,3 +380,21 @@ header{
 .post-types__item .fa-laugh-beam{
     color:var(--fb-yellow);
 }
+.photopost__info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0;
+}
+.photopost__left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photopost__left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
