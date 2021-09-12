@@ -398,3 +398,20 @@ header{
     border-radius: 50%;
     margin-right: 10px;
 }
+.photopost__details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.photopost__name{
+    font-size: .9rem;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.photopost__date{
+    font-size: .7rem;
+    color: var(--light-color-text);
+}
+.photopost__info .fa-ellipsis-h{
+    color: var(--light-color-text);
+}
