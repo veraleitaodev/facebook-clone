@@ -382,6 +382,7 @@ header{
 }
 .photopost{
     padding: 0 0 20px;
+    margin-bottom: 20px;
 }
 .photopost__info{
     width: 100%;
