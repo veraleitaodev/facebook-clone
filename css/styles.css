@@ -436,3 +436,8 @@ header{
     font-weight: 300;
     font-size: .9rem;
 }
+.photopost__stats-emojis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
