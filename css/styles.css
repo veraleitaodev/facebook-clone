@@ -380,12 +380,15 @@ header{
 .post-types__item .fa-laugh-beam{
     color:var(--fb-yellow);
 }
+.photopost{
+    padding: 0;
+}
 .photopost__info{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 20px 0;
+    padding: 10px 20px 20px;
 }
 .photopost__left{
     display: flex;
@@ -396,7 +399,7 @@ header{
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-right: 10px;
+    margin: 10px 10px 10px 0px;
 }
 .photopost__details{
     display: flex;
@@ -414,4 +417,8 @@ header{
 }
 .photopost__info .fa-ellipsis-h{
     color: var(--light-color-text);
+}
+.photopost__description{
+    padding: 20px;
+
 }
