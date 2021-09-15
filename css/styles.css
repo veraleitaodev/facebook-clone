@@ -86,13 +86,13 @@ header {
   padding-left: 35px;
   font-weight: 300;
   border: none;
+  margin-right: 20px;
 }
 .header__mobile-button{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.7rem;
-    margin-right: 20px;
 }
 .header__menu-tabs {
   display: flex;
@@ -599,6 +599,21 @@ header {
 @media only screen and (max-width: 1000px){
 }
 @media only screen and (max-width: 768px){
+    .header__user-img{
+        display: none;
+    }
+    .header__user-name{
+        display: none;
+    }
+    .header__logo-search .fa-search{
+        left: 12px;
+        top: 12px;
+    }
+    .header__logo-search input[type="text"]{
+        width: 40px;
+        height: 40px;
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 320px){
 }
