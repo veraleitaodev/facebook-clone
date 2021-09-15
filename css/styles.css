@@ -457,10 +457,12 @@ header{
 .emoji-circle:nth-child(1){
     z-index: 3;
 }
-.emoji-circle:nth-child(1){
+.emoji-circle:nth-child(2){
+    left: -5px;
     z-index: 2;
 }
-.emoji-circle:nth-child(1){
+.emoji-circle:nth-child(3){
+    left: -10px;
     z-index: 1;
 }
 .emoji-circle--blue{
@@ -470,5 +472,16 @@ header{
     background: linear-gradient(0deg, rgba(92,15,26,1) 0%, rgba(238,35,64,1) 100%);
 }
 .emoji-circle--yellow{
-    background: linear-gradient(0deg, rgba(130,94,23,1) 0%, rgba(246,176,36,1) 100%);
+    background: black;
+    overflow: hidden;
+}
+.emoji-circle--blue .fa-thumbs-up{
+    position: relative;
+    top: -1px;
+}
+.emoji-circle--yellow .fa-surprise{
+    color: var(--fb-yellow);
+    font-size: 1.3rem;
+    position: relative;
+    top: -1px;
 }
