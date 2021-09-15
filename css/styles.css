@@ -18,6 +18,7 @@
     --button-link: #e0e2e8;
     --stories-bg: #090909;
     --icon-circle-bg:linear-gradient(0deg, rgba(65,67,69,1) 0%, rgba(107,110,114,1) 100%);
+    --shadow-color: rgba(0,0,0,.25);
 }
 body {
     background: var(--fb-bgcolor);
@@ -32,7 +33,7 @@ header{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 0px var(--shadow-color);
     position: fixed;
     z-index: 20;
     top: 0;
@@ -263,7 +264,7 @@ header{
     border-radius: 5px;
     background:var(--stories-bg);
     position: relative;
-    box-shadow: 0px 2px 2px 0px var(--fb-black);
+    box-shadow: 0px 2px 2px 0px var(--shadow-color);
     margin-right: 10px;
     cursor: pointer;
 }
@@ -326,7 +327,7 @@ header{
     width: 100%;
     flex: none;
     border-radius: 5px;
-    box-shadow: 0px 1px 2px 0px rgba(0,0,0,.25);
+    box-shadow: 0px 1px 2px 0px var(--shadow-color);
     margin-bottom: 20px;
 }
 .newspost{
@@ -512,4 +513,5 @@ header{
     height: 50px;
     border-radius: 50px;
     overflow: hidden;
+    box-shadow: 0px 5px 10px 0px var(--shadow-color);
 }
