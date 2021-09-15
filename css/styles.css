@@ -502,3 +502,8 @@ header{
 .photopost__link .fas{
     margin-right: 10px;
 }
+.floatingmsg{
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+}
