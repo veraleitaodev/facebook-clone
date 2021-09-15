@@ -451,5 +451,24 @@ header{
     align-items: center;
     font-size: .4rem;
     border-radius: 50%;
-    border: 2px solid;
+    border: 2px solid white;
+    position: relative;
+}
+.emoji-circle:nth-child(1){
+    z-index: 3;
+}
+.emoji-circle:nth-child(1){
+    z-index: 2;
+}
+.emoji-circle:nth-child(1){
+    z-index: 1;
+}
+.emoji-circle--blue{
+    background: linear-gradient(0deg, rgba(4,60,108,1) 0%, rgba(10,134,240,1) 100%);
+}
+.emoji-circle--red{
+    background: linear-gradient(0deg, rgba(92,15,26,1) 0%, rgba(238,35,64,1) 100%);
+}
+.emoji-circle--yellow{
+    background: linear-gradient(0deg, rgba(130,94,23,1) 0%, rgba(246,176,36,1) 100%);
 }
