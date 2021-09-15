@@ -643,4 +643,7 @@ header {
     .header__account{
         display: none;
     }
+    .post-types__title{
+        display: none;
+    }
 }
